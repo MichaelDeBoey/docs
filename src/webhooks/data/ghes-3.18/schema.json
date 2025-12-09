@@ -1235,7 +1235,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -1394,6 +1395,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -1592,7 +1620,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -1751,6 +1780,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -1949,7 +2005,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -2108,6 +2165,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -2306,7 +2390,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -2465,6 +2550,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -2707,7 +2819,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -2866,6 +2979,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -18972,6 +19112,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -19621,6 +19811,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -20270,6 +20510,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -20919,6 +21209,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -21568,6 +21908,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -22217,6 +22607,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -22866,6 +23306,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -37488,7 +37978,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -38206,7 +38695,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -38840,7 +39328,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -39474,7 +39961,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -40108,7 +40594,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -40776,7 +41261,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -41410,7 +41894,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -42095,7 +42578,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -42729,7 +43211,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -43363,7 +43844,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -44003,7 +44483,6 @@
                   "type": "string",
                   "name": "author_association",
                   "description": "<p>How the author is associated with the repository.</p>",
-                  "isRequired": true,
                   "enum": [
                     "COLLABORATOR",
                     "CONTRIBUTOR",
@@ -46095,7 +46574,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -46729,7 +47207,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -47625,7 +48102,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -48310,7 +48786,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -48944,7 +49419,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -49588,7 +50062,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -50230,7 +50703,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -50895,7 +51367,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -51445,7 +51916,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -51604,6 +52076,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -51802,7 +52301,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -51970,6 +52470,33 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "oneOfObject": true
@@ -52121,10 +52648,10 @@
       "category": "dismissal_request_code_scanning"
     }
   },
-  "dismissal_request_secret_scanning": {
+  "dismissal_request_dependabot": {
     "cancelled": {
-      "descriptionHtml": "<p>A secret scanning alert dismissal request was canceled.</p>",
-      "summaryHtml": "<p>This event occurs when there is activity related to a user's request to dismiss a secret scanning alert.</p>\n<p>To subscribe to this event, a GitHub App must have at least read-level access for the \"Secret scanning alerts\" repository permission.</p>\n<p>[!NOTE]\nDelegated alert dismissal for secret scanning is currently in public preview and subject to change.</p>",
+      "descriptionHtml": "<p>A Dependabot alert dismissal request was canceled.</p>",
+      "summaryHtml": "<p>This event occurs when there is activity related to a user's request to dismiss a Dependabot alert.</p>\n<p>To subscribe to this event, a GitHub App must have at least read-level access for the \"Dependabot alerts\" repository permission.</p>",
       "bodyParameters": [
         {
           "type": "string",
@@ -52205,7 +52732,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -52364,6 +52892,1234 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "oneOfObject": true
+            },
+            {
+              "type": "string",
+              "name": "resource_identifier",
+              "description": "<p>The unique identifier for the request type of the exemption request. For example, a commit SHA.</p>"
+            },
+            {
+              "type": "string",
+              "name": "status",
+              "description": "<p>The status of the exemption request.</p>",
+              "enum": [
+                "pending",
+                "rejected",
+                "cancelled",
+                "completed"
+              ]
+            },
+            {
+              "type": "string or null",
+              "name": "requester_comment",
+              "description": "<p>The comment the requester provided when creating the exemption request.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "metadata",
+              "description": "<p>Metadata about the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "expires_at",
+              "description": "<p>The date and time the exemption request will expire.</p>"
+            },
+            {
+              "type": "string",
+              "name": "created_at",
+              "description": "<p>The date and time the exemption request was created.</p>"
+            },
+            {
+              "type": "array of objects or null",
+              "name": "responses",
+              "description": "<p>The responses to the exemption request.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The ID of the exemption response.</p>"
+                },
+                {
+                  "type": "integer",
+                  "name": "reviewer_id",
+                  "description": "<p>The ID of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "reviewer_login",
+                  "description": "<p>The login of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The status of the exemption response.</p>",
+                  "enum": [
+                    "approved",
+                    "rejected",
+                    "dismissed"
+                  ]
+                },
+                {
+                  "type": "string or null",
+                  "name": "reviewer_comment",
+                  "description": "<p>The comment the reviewer provided when responding to the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time the exemption request was created.</p>"
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "html_url",
+              "description": "<p>The URL to view the exemption request in a browser.</p>"
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "sender",
+          "in": "body",
+          "description": "<p>A GitHub user.</p>",
+          "isRequired": true,
+          "childParamsGroups": []
+        }
+      ],
+      "availability": [
+        "repository",
+        "organization",
+        "app"
+      ],
+      "action": "cancelled",
+      "category": "dismissal_request_dependabot"
+    },
+    "created": {
+      "descriptionHtml": "<p>A Dependabot alert dismissal request was created.</p>",
+      "summaryHtml": "<p>This event occurs when there is activity related to a user's request to dismiss a Dependabot alert.</p>\n<p>To subscribe to this event, a GitHub App must have at least read-level access for the \"Dependabot alerts\" repository permission.</p>",
+      "bodyParameters": [
+        {
+          "type": "string",
+          "name": "action",
+          "in": "body",
+          "description": "",
+          "isRequired": true,
+          "enum": [
+            "created"
+          ],
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "enterprise",
+          "in": "body",
+          "description": "<p>An enterprise on GitHub. Webhook payloads contain the <code>enterprise</code> property when the webhook is configured\non an enterprise account or an organization that's part of an enterprise account. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.18/admin/overview/about-enterprise-accounts\">About enterprise accounts</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "installation",
+          "in": "body",
+          "description": "<p>The GitHub App installation. Webhook payloads contain the <code>installation</code> property when the event is configured\nfor and sent to a GitHub App. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.18/apps/creating-github-apps/registering-a-github-app/using-webhooks-with-github-apps\">Using webhooks with GitHub Apps</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "organization",
+          "in": "body",
+          "description": "<p>A GitHub organization. Webhook payloads contain the <code>organization</code> property when the webhook is configured for an\norganization, or when the event occurs from activity in a repository owned by an organization.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "repository",
+          "in": "body",
+          "description": "<p>The repository on GitHub where the event occurred. Webhook payloads contain the <code>repository</code> property\nwhen the event occurs from activity in a repository.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "exemption_request",
+          "in": "body",
+          "description": "<p>A request from a user to be exempted from a set of rules.</p>",
+          "isRequired": true,
+          "childParamsGroups": [
+            {
+              "type": "integer",
+              "name": "id",
+              "description": "<p>The ID of the exemption request.</p>"
+            },
+            {
+              "type": "integer or null",
+              "name": "number",
+              "description": "<p>The number uniquely identifying the exemption request within it's repository.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "repository_id",
+              "description": "<p>The ID of the repository the exemption request is for.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "requester_id",
+              "description": "<p>The ID of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "requester_login",
+              "description": "<p>The login of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "request_type",
+              "description": "<p>The type of request.</p>",
+              "enum": [
+                "push_ruleset_bypass",
+                "secret_scanning",
+                "secret_scanning_closure",
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
+              ]
+            },
+            {
+              "type": "object",
+              "name": "exemption_request_data",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "object",
+                  "name": "Push ruleset bypass exemption request data",
+                  "description": "<p>Push rules that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "push_ruleset_bypass"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the push rules that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "integer",
+                          "name": "ruleset_id",
+                          "description": "<p>The ID of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "ruleset_name",
+                          "description": "<p>The name of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "integer",
+                          "name": "total_violations",
+                          "description": "<p>The number of violations</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "rule_type",
+                          "description": "<p>The type of rule that was violated</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning push protection exemption request data",
+                  "description": "<p>Secret scanning push protections that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the secret scanning push protections that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "array of objects",
+                          "name": "locations",
+                          "description": "<p>The location data of the secret that was detected</p>",
+                          "childParamsGroups": [
+                            {
+                              "type": "string",
+                              "name": "commit",
+                              "description": "<p>The commit SHA where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "branch",
+                              "description": "<p>The branch where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "path",
+                              "description": "<p>The path of the file where the secret was detected</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning alert dismissal request data",
+                  "description": "<p>Secret scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning_closure"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the secret scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "reason",
+                          "description": "<p>The reason for the dismissal request</p>",
+                          "enum": [
+                            "fixed_later",
+                            "false_positive",
+                            "tests",
+                            "revoked"
+                          ]
+                        },
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert that was detected</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Code scanning alert dismissal request data",
+                  "description": "<p>Code scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "code_scanning_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "oneOfObject": true
+            },
+            {
+              "type": "string",
+              "name": "resource_identifier",
+              "description": "<p>The unique identifier for the request type of the exemption request. For example, a commit SHA.</p>"
+            },
+            {
+              "type": "string",
+              "name": "status",
+              "description": "<p>The status of the exemption request.</p>",
+              "enum": [
+                "pending",
+                "rejected",
+                "cancelled",
+                "completed"
+              ]
+            },
+            {
+              "type": "string or null",
+              "name": "requester_comment",
+              "description": "<p>The comment the requester provided when creating the exemption request.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "metadata",
+              "description": "<p>Metadata about the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "expires_at",
+              "description": "<p>The date and time the exemption request will expire.</p>"
+            },
+            {
+              "type": "string",
+              "name": "created_at",
+              "description": "<p>The date and time the exemption request was created.</p>"
+            },
+            {
+              "type": "array of objects or null",
+              "name": "responses",
+              "description": "<p>The responses to the exemption request.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The ID of the exemption response.</p>"
+                },
+                {
+                  "type": "integer",
+                  "name": "reviewer_id",
+                  "description": "<p>The ID of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "reviewer_login",
+                  "description": "<p>The login of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The status of the exemption response.</p>",
+                  "enum": [
+                    "approved",
+                    "rejected",
+                    "dismissed"
+                  ]
+                },
+                {
+                  "type": "string or null",
+                  "name": "reviewer_comment",
+                  "description": "<p>The comment the reviewer provided when responding to the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time the exemption request was created.</p>"
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "html_url",
+              "description": "<p>The URL to view the exemption request in a browser.</p>"
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "sender",
+          "in": "body",
+          "description": "<p>A GitHub user.</p>",
+          "isRequired": true,
+          "childParamsGroups": []
+        }
+      ],
+      "availability": [
+        "repository",
+        "organization",
+        "app"
+      ],
+      "action": "created",
+      "category": "dismissal_request_dependabot"
+    },
+    "response_submitted": {
+      "descriptionHtml": "<p>A Dependabot alert dismissal request received a response.</p>",
+      "summaryHtml": "<p>This event occurs when there is activity related to a user's request to dismiss a Dependabot alert.</p>\n<p>To subscribe to this event, a GitHub App must have at least read-level access for the \"Dependabot alerts\" repository permission.</p>",
+      "bodyParameters": [
+        {
+          "type": "string",
+          "name": "action",
+          "in": "body",
+          "description": "",
+          "isRequired": true,
+          "enum": [
+            "response_submitted"
+          ],
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "enterprise",
+          "in": "body",
+          "description": "<p>An enterprise on GitHub. Webhook payloads contain the <code>enterprise</code> property when the webhook is configured\non an enterprise account or an organization that's part of an enterprise account. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.18/admin/overview/about-enterprise-accounts\">About enterprise accounts</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "installation",
+          "in": "body",
+          "description": "<p>The GitHub App installation. Webhook payloads contain the <code>installation</code> property when the event is configured\nfor and sent to a GitHub App. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.18/apps/creating-github-apps/registering-a-github-app/using-webhooks-with-github-apps\">Using webhooks with GitHub Apps</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "organization",
+          "in": "body",
+          "description": "<p>A GitHub organization. Webhook payloads contain the <code>organization</code> property when the webhook is configured for an\norganization, or when the event occurs from activity in a repository owned by an organization.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "repository",
+          "in": "body",
+          "description": "<p>The repository on GitHub where the event occurred. Webhook payloads contain the <code>repository</code> property\nwhen the event occurs from activity in a repository.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "exemption_request",
+          "in": "body",
+          "description": "<p>A request from a user to be exempted from a set of rules.</p>",
+          "isRequired": true,
+          "childParamsGroups": [
+            {
+              "type": "integer",
+              "name": "id",
+              "description": "<p>The ID of the exemption request.</p>"
+            },
+            {
+              "type": "integer or null",
+              "name": "number",
+              "description": "<p>The number uniquely identifying the exemption request within it's repository.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "repository_id",
+              "description": "<p>The ID of the repository the exemption request is for.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "requester_id",
+              "description": "<p>The ID of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "requester_login",
+              "description": "<p>The login of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "request_type",
+              "description": "<p>The type of request.</p>",
+              "enum": [
+                "push_ruleset_bypass",
+                "secret_scanning",
+                "secret_scanning_closure",
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
+              ]
+            },
+            {
+              "type": "object",
+              "name": "exemption_request_data",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "object",
+                  "name": "Push ruleset bypass exemption request data",
+                  "description": "<p>Push rules that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "push_ruleset_bypass"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the push rules that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "integer",
+                          "name": "ruleset_id",
+                          "description": "<p>The ID of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "ruleset_name",
+                          "description": "<p>The name of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "integer",
+                          "name": "total_violations",
+                          "description": "<p>The number of violations</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "rule_type",
+                          "description": "<p>The type of rule that was violated</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning push protection exemption request data",
+                  "description": "<p>Secret scanning push protections that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the secret scanning push protections that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "array of objects",
+                          "name": "locations",
+                          "description": "<p>The location data of the secret that was detected</p>",
+                          "childParamsGroups": [
+                            {
+                              "type": "string",
+                              "name": "commit",
+                              "description": "<p>The commit SHA where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "branch",
+                              "description": "<p>The branch where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "path",
+                              "description": "<p>The path of the file where the secret was detected</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning alert dismissal request data",
+                  "description": "<p>Secret scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning_closure"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the secret scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "reason",
+                          "description": "<p>The reason for the dismissal request</p>",
+                          "enum": [
+                            "fixed_later",
+                            "false_positive",
+                            "tests",
+                            "revoked"
+                          ]
+                        },
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert that was detected</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Code scanning alert dismissal request data",
+                  "description": "<p>Code scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "code_scanning_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "oneOfObject": true
+            },
+            {
+              "type": "string",
+              "name": "resource_identifier",
+              "description": "<p>The unique identifier for the request type of the exemption request. For example, a commit SHA.</p>"
+            },
+            {
+              "type": "string",
+              "name": "status",
+              "description": "<p>The status of the exemption request.</p>",
+              "enum": [
+                "pending",
+                "rejected",
+                "cancelled",
+                "completed"
+              ]
+            },
+            {
+              "type": "string or null",
+              "name": "requester_comment",
+              "description": "<p>The comment the requester provided when creating the exemption request.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "metadata",
+              "description": "<p>Metadata about the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "expires_at",
+              "description": "<p>The date and time the exemption request will expire.</p>"
+            },
+            {
+              "type": "string",
+              "name": "created_at",
+              "description": "<p>The date and time the exemption request was created.</p>"
+            },
+            {
+              "type": "array of objects or null",
+              "name": "responses",
+              "description": "<p>The responses to the exemption request.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The ID of the exemption response.</p>"
+                },
+                {
+                  "type": "integer",
+                  "name": "reviewer_id",
+                  "description": "<p>The ID of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "reviewer_login",
+                  "description": "<p>The login of the user who reviewed the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The status of the exemption response.</p>",
+                  "enum": [
+                    "approved",
+                    "rejected",
+                    "dismissed"
+                  ]
+                },
+                {
+                  "type": "string or null",
+                  "name": "reviewer_comment",
+                  "description": "<p>The comment the reviewer provided when responding to the exemption request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time the exemption request was created.</p>"
+                }
+              ]
+            },
+            {
+              "type": "string",
+              "name": "html_url",
+              "description": "<p>The URL to view the exemption request in a browser.</p>"
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "exemption_response",
+          "in": "body",
+          "description": "<p>A response to an exemption request by a delegated bypasser.</p>",
+          "isRequired": true,
+          "childParamsGroups": [
+            {
+              "type": "integer",
+              "name": "id",
+              "description": "<p>The ID of the exemption response.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "reviewer_id",
+              "description": "<p>The ID of the user who reviewed the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "reviewer_login",
+              "description": "<p>The login of the user who reviewed the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "status",
+              "description": "<p>The status of the exemption response.</p>",
+              "enum": [
+                "approved",
+                "rejected",
+                "dismissed"
+              ]
+            },
+            {
+              "type": "string or null",
+              "name": "reviewer_comment",
+              "description": "<p>The comment the reviewer provided when responding to the exemption request.</p>"
+            },
+            {
+              "type": "string",
+              "name": "created_at",
+              "description": "<p>The date and time the exemption request was created.</p>"
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "name": "sender",
+          "in": "body",
+          "description": "<p>A GitHub user.</p>",
+          "isRequired": true,
+          "childParamsGroups": []
+        }
+      ],
+      "availability": [
+        "repository",
+        "organization",
+        "app"
+      ],
+      "action": "response_submitted",
+      "category": "dismissal_request_dependabot"
+    }
+  },
+  "dismissal_request_secret_scanning": {
+    "cancelled": {
+      "descriptionHtml": "<p>A secret scanning alert dismissal request was canceled.</p>",
+      "summaryHtml": "<p>This event occurs when there is activity related to a user's request to dismiss a secret scanning alert.</p>\n<p>To subscribe to this event, a GitHub App must have at least read-level access for the \"Secret scanning alerts\" repository permission.</p>\n<p>[!NOTE]\nDelegated alert dismissal for secret scanning is currently in public preview and subject to change.</p>",
+      "bodyParameters": [
+        {
+          "type": "string",
+          "name": "action",
+          "in": "body",
+          "description": "",
+          "isRequired": true,
+          "enum": [
+            "cancelled"
+          ],
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "enterprise",
+          "in": "body",
+          "description": "<p>An enterprise on GitHub. Webhook payloads contain the <code>enterprise</code> property when the webhook is configured\non an enterprise account or an organization that's part of an enterprise account. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.18/admin/overview/about-enterprise-accounts\">About enterprise accounts</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "installation",
+          "in": "body",
+          "description": "<p>The GitHub App installation. Webhook payloads contain the <code>installation</code> property when the event is configured\nfor and sent to a GitHub App. For more information,\nsee \"<a href=\"https://docs.github.com/enterprise-server@3.18/apps/creating-github-apps/registering-a-github-app/using-webhooks-with-github-apps\">Using webhooks with GitHub Apps</a>.\"</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "organization",
+          "in": "body",
+          "description": "<p>A GitHub organization. Webhook payloads contain the <code>organization</code> property when the webhook is configured for an\norganization, or when the event occurs from activity in a repository owned by an organization.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "repository",
+          "in": "body",
+          "description": "<p>The repository on GitHub where the event occurred. Webhook payloads contain the <code>repository</code> property\nwhen the event occurs from activity in a repository.</p>",
+          "childParamsGroups": []
+        },
+        {
+          "type": "object",
+          "name": "exemption_request",
+          "in": "body",
+          "description": "<p>A request from a user to be exempted from a set of rules.</p>",
+          "isRequired": true,
+          "childParamsGroups": [
+            {
+              "type": "integer",
+              "name": "id",
+              "description": "<p>The ID of the exemption request.</p>"
+            },
+            {
+              "type": "integer or null",
+              "name": "number",
+              "description": "<p>The number uniquely identifying the exemption request within it's repository.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "repository_id",
+              "description": "<p>The ID of the repository the exemption request is for.</p>"
+            },
+            {
+              "type": "integer",
+              "name": "requester_id",
+              "description": "<p>The ID of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "requester_login",
+              "description": "<p>The login of the user who requested the exemption.</p>"
+            },
+            {
+              "type": "string",
+              "name": "request_type",
+              "description": "<p>The type of request.</p>",
+              "enum": [
+                "push_ruleset_bypass",
+                "secret_scanning",
+                "secret_scanning_closure",
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
+              ]
+            },
+            {
+              "type": "object",
+              "name": "exemption_request_data",
+              "description": "",
+              "childParamsGroups": [
+                {
+                  "type": "object",
+                  "name": "Push ruleset bypass exemption request data",
+                  "description": "<p>Push rules that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "push_ruleset_bypass"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the push rules that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "integer",
+                          "name": "ruleset_id",
+                          "description": "<p>The ID of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "ruleset_name",
+                          "description": "<p>The name of the ruleset for the rules that were violated</p>"
+                        },
+                        {
+                          "type": "integer",
+                          "name": "total_violations",
+                          "description": "<p>The number of violations</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "rule_type",
+                          "description": "<p>The type of rule that was violated</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning push protection exemption request data",
+                  "description": "<p>Secret scanning push protections that are being requested to be bypassed.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data pertaining to the secret scanning push protections that are being requested to be bypassed.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "array of objects",
+                          "name": "locations",
+                          "description": "<p>The location data of the secret that was detected</p>",
+                          "childParamsGroups": [
+                            {
+                              "type": "string",
+                              "name": "commit",
+                              "description": "<p>The commit SHA where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "branch",
+                              "description": "<p>The branch where the secret was detected</p>"
+                            },
+                            {
+                              "type": "string",
+                              "name": "path",
+                              "description": "<p>The path of the file where the secret was detected</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Secret scanning alert dismissal request data",
+                  "description": "<p>Secret scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "secret_scanning_closure"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the secret scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "reason",
+                          "description": "<p>The reason for the dismissal request</p>",
+                          "enum": [
+                            "fixed_later",
+                            "false_positive",
+                            "tests",
+                            "revoked"
+                          ]
+                        },
+                        {
+                          "type": "string",
+                          "name": "secret_type",
+                          "description": "<p>The type of secret that was detected</p>"
+                        },
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert that was detected</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Code scanning alert dismissal request data",
+                  "description": "<p>Code scanning alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "code_scanning_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -52562,7 +54318,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -52721,6 +54478,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -52919,7 +54703,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -53078,6 +54863,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -53276,7 +55088,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -53435,6 +55248,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -53677,7 +55517,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -53836,6 +55677,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -54140,7 +56008,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -54299,6 +56168,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -54497,7 +56393,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -54656,6 +56553,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -54854,7 +56778,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -55013,6 +56938,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -55211,7 +57163,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -55370,6 +57323,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -55612,7 +57592,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -55771,6 +57752,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -207146,11 +209154,6 @@
                         },
                         {
                           "type": "boolean",
-                          "name": "automatic_copilot_code_review_enabled",
-                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
-                        },
-                        {
-                          "type": "boolean",
                           "name": "dismiss_stale_reviews_on_push",
                           "description": "<p>New, reviewable commits pushed will dismiss previous pull request review approvals.</p>",
                           "isRequired": true
@@ -208325,11 +210328,6 @@
                           "type": "array of strings",
                           "name": "allowed_merge_methods",
                           "description": "<p>Array of allowed merge methods. Allowed values include <code>merge</code>, <code>squash</code>, and <code>rebase</code>. At least one option must be enabled.\nSupported values are: <code>merge</code>, <code>squash</code>, <code>rebase</code></p>"
-                        },
-                        {
-                          "type": "boolean",
-                          "name": "automatic_copilot_code_review_enabled",
-                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
                         },
                         {
                           "type": "boolean",
@@ -209510,11 +211508,6 @@
                         },
                         {
                           "type": "boolean",
-                          "name": "automatic_copilot_code_review_enabled",
-                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
-                        },
-                        {
-                          "type": "boolean",
                           "name": "dismiss_stale_reviews_on_push",
                           "description": "<p>New, reviewable commits pushed will dismiss previous pull request review approvals.</p>",
                           "isRequired": true
@@ -210666,11 +212659,6 @@
                             },
                             {
                               "type": "boolean",
-                              "name": "automatic_copilot_code_review_enabled",
-                              "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
-                            },
-                            {
-                              "type": "boolean",
                               "name": "dismiss_stale_reviews_on_push",
                               "description": "<p>New, reviewable commits pushed will dismiss previous pull request review approvals.</p>",
                               "isRequired": true
@@ -211631,11 +213619,6 @@
                               "type": "array of strings",
                               "name": "allowed_merge_methods",
                               "description": "<p>Array of allowed merge methods. Allowed values include <code>merge</code>, <code>squash</code>, and <code>rebase</code>. At least one option must be enabled.\nSupported values are: <code>merge</code>, <code>squash</code>, <code>rebase</code></p>"
-                            },
-                            {
-                              "type": "boolean",
-                              "name": "automatic_copilot_code_review_enabled",
-                              "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
                             },
                             {
                               "type": "boolean",
@@ -212604,11 +214587,6 @@
                                   "type": "array of strings",
                                   "name": "allowed_merge_methods",
                                   "description": "<p>Array of allowed merge methods. Allowed values include <code>merge</code>, <code>squash</code>, and <code>rebase</code>. At least one option must be enabled.\nSupported values are: <code>merge</code>, <code>squash</code>, <code>rebase</code></p>"
-                                },
-                                {
-                                  "type": "boolean",
-                                  "name": "automatic_copilot_code_review_enabled",
-                                  "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
                                 },
                                 {
                                   "type": "boolean",

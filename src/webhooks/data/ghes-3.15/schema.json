@@ -1235,7 +1235,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -1394,6 +1395,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -1592,7 +1620,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -1751,6 +1780,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -1949,7 +2005,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -2108,6 +2165,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -2306,7 +2390,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -2465,6 +2550,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -2707,7 +2819,8 @@
                 "push_ruleset_bypass",
                 "secret_scanning",
                 "secret_scanning_closure",
-                "code_scanning_alert_dismissal"
+                "code_scanning_alert_dismissal",
+                "dependabot_alert_dismissal"
               ]
             },
             {
@@ -2866,6 +2979,33 @@
                       "type": "array of objects",
                       "name": "data",
                       "description": "<p>The data related to the code scanning alerts that have dismissal requests.</p>",
+                      "childParamsGroups": [
+                        {
+                          "type": "string",
+                          "name": "alert_number",
+                          "description": "<p>The number of the alert to be dismissed</p>"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "Dependabot alert dismissal request data",
+                  "description": "<p>Dependabot alerts that have dismissal requests.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "string",
+                      "name": "type",
+                      "description": "<p>The type of request</p>",
+                      "enum": [
+                        "dependabot_alert_dismissal"
+                      ]
+                    },
+                    {
+                      "type": "array of objects",
+                      "name": "data",
+                      "description": "<p>The data related to the Dependabot alerts that have dismissal requests.</p>",
                       "childParamsGroups": [
                         {
                           "type": "string",
@@ -18748,6 +18888,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -19380,6 +19570,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -20012,6 +20252,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -20644,6 +20934,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -21276,6 +21616,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -21908,6 +22298,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -22540,6 +22980,56 @@
               "type": "string or null",
               "name": "auto_dismissed_at",
               "description": "<p>The time that the alert was auto-dismissed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
+            },
+            {
+              "type": "object or null",
+              "name": "dismissal_request",
+              "description": "<p>Information about an active dismissal request for this Dependabot alert.</p>",
+              "childParamsGroups": [
+                {
+                  "type": "integer",
+                  "name": "id",
+                  "description": "<p>The unique identifier of the dismissal request.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "status",
+                  "description": "<p>The current status of the dismissal request.</p>",
+                  "enum": [
+                    "pending",
+                    "approved",
+                    "rejected",
+                    "cancelled"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "name": "requester",
+                  "description": "<p>The user who requested the dismissal.</p>",
+                  "childParamsGroups": [
+                    {
+                      "type": "integer",
+                      "name": "id",
+                      "description": "<p>The unique identifier of the user.</p>"
+                    },
+                    {
+                      "type": "string",
+                      "name": "login",
+                      "description": "<p>The login name of the user.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "name": "created_at",
+                  "description": "<p>The date and time when the dismissal request was created.</p>"
+                },
+                {
+                  "type": "string",
+                  "name": "url",
+                  "description": "<p>The API URL to get more information about this dismissal request.</p>"
+                }
+              ]
             }
           ]
         },
@@ -37152,7 +37642,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -37870,7 +38359,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -38504,7 +38992,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -39138,7 +39625,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -39772,7 +40258,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -40440,7 +40925,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -41074,7 +41558,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -41759,7 +42242,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -42393,7 +42875,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -43027,7 +43508,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -43667,7 +44147,6 @@
                   "type": "string",
                   "name": "author_association",
                   "description": "<p>How the author is associated with the repository.</p>",
-                  "isRequired": true,
                   "enum": [
                     "COLLABORATOR",
                     "CONTRIBUTOR",
@@ -45759,7 +46238,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -46393,7 +46871,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -47289,7 +47766,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -47974,7 +48450,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -48608,7 +49083,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -49252,7 +49726,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -49894,7 +50367,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -50559,7 +51031,6 @@
               "type": "string",
               "name": "author_association",
               "description": "<p>How the author is associated with the repository.</p>",
-              "isRequired": true,
               "enum": [
                 "COLLABORATOR",
                 "CONTRIBUTOR",
@@ -202294,11 +202765,6 @@
                       "childParamsGroups": [
                         {
                           "type": "boolean",
-                          "name": "automatic_copilot_code_review_enabled",
-                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
-                        },
-                        {
-                          "type": "boolean",
                           "name": "dismiss_stale_reviews_on_push",
                           "description": "<p>New, reviewable commits pushed will dismiss previous pull request review approvals.</p>",
                           "isRequired": true
@@ -203340,11 +203806,6 @@
                       "name": "parameters",
                       "description": "",
                       "childParamsGroups": [
-                        {
-                          "type": "boolean",
-                          "name": "automatic_copilot_code_review_enabled",
-                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
-                        },
                         {
                           "type": "boolean",
                           "name": "dismiss_stale_reviews_on_push",
@@ -204390,11 +204851,6 @@
                       "childParamsGroups": [
                         {
                           "type": "boolean",
-                          "name": "automatic_copilot_code_review_enabled",
-                          "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
-                        },
-                        {
-                          "type": "boolean",
                           "name": "dismiss_stale_reviews_on_push",
                           "description": "<p>New, reviewable commits pushed will dismiss previous pull request review approvals.</p>",
                           "isRequired": true
@@ -205413,11 +205869,6 @@
                           "childParamsGroups": [
                             {
                               "type": "boolean",
-                              "name": "automatic_copilot_code_review_enabled",
-                              "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
-                            },
-                            {
-                              "type": "boolean",
                               "name": "dismiss_stale_reviews_on_push",
                               "description": "<p>New, reviewable commits pushed will dismiss previous pull request review approvals.</p>",
                               "isRequired": true
@@ -206246,11 +206697,6 @@
                           "name": "parameters",
                           "description": "",
                           "childParamsGroups": [
-                            {
-                              "type": "boolean",
-                              "name": "automatic_copilot_code_review_enabled",
-                              "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
-                            },
                             {
                               "type": "boolean",
                               "name": "dismiss_stale_reviews_on_push",
@@ -207086,11 +207532,6 @@
                               "name": "parameters",
                               "description": "",
                               "childParamsGroups": [
-                                {
-                                  "type": "boolean",
-                                  "name": "automatic_copilot_code_review_enabled",
-                                  "description": "<p>Request Copilot code review for new pull requests automatically if the author has access to Copilot code review and their premium requests quota has not reached the limit.</p>"
-                                },
                                 {
                                   "type": "boolean",
                                   "name": "dismiss_stale_reviews_on_push",
